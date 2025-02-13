@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0d
+}
+nav{
+    padding: 5px;
+}
+h1{
+    display: inline;
+}
+.a{
+    display: inline;
+    margin-left: 70%;
+}
+.about{
+    display: flex;
+    margin-top: 50PX;
+   
+}
+.about1{
+    padding: 10px;
+    margin-top: 20PX;
+    padding-right: 200px;
+}
+.image1{
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    padding: 20px;
+}
+.aboutme{
+    background-color: rgb(248, 242, 242);
+    height: 500px;
+    
+}
+.summary{
+    display: flex;
+    padding: 50px;
+}
+
+.summary > div{
+    width: 50%;
+}
+.skills{
+    text-align: center;
+    padding: 20px;
+}
+.skills > h5{
+    margin-bottom: 10px;  
+}
+.h5{
+    background-color: rgba(153, 153, 153, 0.686);
+    border-radius: 50vh;
+    padding: 10px;
+}
+.skills > p{
+    margin-bottom: 50px;
+}
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 20px;
+    justify-content: center;
+}
+.skill-item {
+    text-align: center;
+  }
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  .skill-item p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .work{
+    text-align: center;
+    padding: 70px;
+  }
+  .work-item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(246, 242, 236);
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .work-img img{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+.h1{
+    background-color: rgba(205, 189, 189, 0.686);
+    border-radius: 50vh;
+    padding-inline: 5px;
+}
+.get-in-touch{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(230, 227, 227);
+    padding: 10px;
+}
+
+body {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: auto;
+}
